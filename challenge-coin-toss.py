@@ -15,6 +15,7 @@ for trial in range(num_rolls):
     else:
         tails_tally += 1
 
+
     if hands_tally != 0 and tails_tally != 0:
         sums += 1
         hands_tally = 0
